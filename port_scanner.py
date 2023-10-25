@@ -15,6 +15,8 @@ def print_banner(text):
 
 print_banner("Samir and Hatim Tool")
 print("made by:HATIM,SAAD,YOUNESS")
+print("suppervised by : samir.B")
+print("_________________________")
 
 def scan_ports(target, ports):
 
@@ -88,4 +90,5 @@ def main():
 
 if __name__ == "__main__":
 
-    main()
+    main()
+
