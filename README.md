@@ -1,4 +1,4 @@
-# baha-tool
+# samir-tool
 this is a tool similar to nmap wich scans the top 100 ports
 after cloning this github repository
 change your current directory to where the python file is located
