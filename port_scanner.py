@@ -6,17 +6,14 @@ import socket
 import pyfiglet
 
 def print_banner(text):
-
     font = pyfiglet.Figlet()
-
-    ascii_art = font.renderText(text)
-
-    print(ascii_art)
+    blue_banner = f"\033[1;31m{font.renderText(text)}\033[0m"
+    print(blue_banner)
 
 print_banner("Samir and Hatim Tool")
-print("made by:HATIM,SAAD,YOUNESS")
-print("suppervised by : samir.B")
-print("_________________________")
+print("\033[1;31mmade by: HATIM, SAAD, YOUNESS\033[0m")
+print("\033[1;31msupervised by: Samir.B\033[0m")
+print("\033[1;31m_________________________\033[0m")
 
 def scan_ports(target, ports):
 
